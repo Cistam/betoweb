@@ -1653,3 +1653,54 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+/*Desde aca se agregan cosas nuevas*/
+#Opciones p
+#chefs {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  min-height: 100vh; /* Asegura que la sección esté centrada en la ventana del navegador */
+  text-align: center; /* Opcional: Centra el texto horizontalmente en la sección */
+}
+
+/* Estilos para centrar los elementos internos (columnas) */
+#chefs .row {
+  justify-content: center; /* Centra horizontalmente las columnas dentro de la fila */
+}
+
+#chefs .col-lg-4 {
+  margin: 0 10px; /* Espacio entre las columnas */
+}
+
+
+#bancos
+
+#bancos-logos {
+  overflow: hidden;
+  
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.logos-container {
+  display: flex;
+  animation: desplazamiento 30s linear infinite; /* Configura la animación de desplazamiento */
+  width: max-content;
+  position: relative;
+}
+
+.logos-container img {
+  max-width: auto;
+  max-height: 100px;
+  margin: 0 10px;
+}
+
+@keyframes desplazamiento {
+  0% {
+    left: 100%; /* Comienza fuera del área visible a la derecha */
+  }
+  100% {
+    left: -100%; /* Vuelve a la posición inicial a la derecha */
+  }
+}
