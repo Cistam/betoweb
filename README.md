@@ -2,7 +2,7 @@
 ##Project number thirteen
 ##To see the end result [Demo](https://dannlebeau.github.io/donbeto.github.io/).
 
-##Introduction 
+##Introduction
 ![image](https://github.com/dannlebeau/project13.github.io/assets/132018100/61fc2c43-4cd7-49da-98e7-d3d45dbde0a4)
 
 ## Learn more about us
